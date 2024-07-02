@@ -41,6 +41,15 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.contacts {
+  color: #434455;
+}
+.contacts:hover {
+  color: #404bbf;
+}
+.contacts:focus {
+  color: #404bbf;
+}
 .main-section {
   background: #2e2f42;
 }
