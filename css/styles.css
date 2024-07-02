@@ -83,6 +83,9 @@ body {
   color: #2e2f42;
   text-transform: capitalize;
 }
+.worker {
+  background-color: #ffffff;
+}
 .team-names {
   font-weight: 500;
   font-size: 20px;
