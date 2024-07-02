@@ -48,6 +48,14 @@ body {
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  font-weight: 500;
+  cursor: pointer;
+}
+.main-button:hover {
+  background-color: #404bbf;
+}
+.main-button:focus {
+  background-color: #404bbf;
 }
 .list-features {
   font-weight: 500;
@@ -63,6 +71,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.section-team {
+  background-color: #f4f4fd;
+}
 .second-title {
   font-weight: 700;
   font-size: 36px;
@@ -70,6 +81,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-names {
   font-weight: 500;
@@ -94,6 +106,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-items {
   font-weight: 500;
