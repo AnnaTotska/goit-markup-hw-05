@@ -119,6 +119,18 @@ body {
 .main-button:focus {
   background-color: #404bbf;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .features {
   display: flex;
   gap: 24px;
@@ -147,7 +159,7 @@ body {
   align-items: center;
 }
 
-.section-team {
+.our-section-team {
   background-color: #f4f4fd;
   width: 1550px;
   height: 732px;
@@ -263,6 +275,7 @@ img {
   color: #4d5ae5;
   margin-top: 100px;
   margin-left: 156px;
+  text-decoration: none;
 }
 .footer-logo-color {
   font-family: "Raleway", sans-serif;
