@@ -3,6 +3,9 @@ body {
   color: #434455;
   font-family: "Roboto", sans-serif;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .container-header {
   width: 1440px;
   height: 72px;
