@@ -79,12 +79,12 @@ body {
 .contacts:focus {
   color: #404bbf;
 }
-.main-container {
+.div-main-container {
   height: 600px;
   background: #2e2f42;
-  display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 180px;
 }
 .main-title {
   font-weight: 700;
@@ -95,7 +95,6 @@ body {
   color: #fff;
   margin: auto;
   max-width: 496px;
-  margin-bottom: 48px;
 }
 .main-button {
   font-family: "Roboto", sans-serif;
@@ -112,6 +111,8 @@ body {
   border: none;
   display: block;
   margin: 0 auto;
+  height: 56px;
+  margin-top: 48px;
 }
 .main-button:hover {
   background-color: #404bbf;
@@ -154,9 +155,7 @@ body {
   color: #434455;
   margin-bottom: 137px;
 }
-.container-team {
-  display: flex;
-  align-items: center;
+.div-container-team {
 }
 
 .our-section-team {
@@ -220,8 +219,6 @@ img {
   text-align: center;
   color: #434455;
   margin-top: 8px;
-}
-.portfolio-container {
 }
 .portfolio {
   font-weight: 700;
