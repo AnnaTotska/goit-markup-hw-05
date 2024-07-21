@@ -6,7 +6,7 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container-header {
+.header-container {
   width: 1440px;
   height: 72px;
   background-color: #ffffff;
@@ -208,6 +208,8 @@ img {
   text-align: center;
   color: #434455;
   margin-top: 8px;
+}
+.portfolio-container {
 }
 .portfolio {
   font-weight: 700;
