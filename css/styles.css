@@ -169,7 +169,7 @@ body {
   margin-bottom: 137px;
 }
 .div-container-team {
-  padding: 120px 0;
+  padding: 32px 0;
 }
 
 .our-section-team {
@@ -275,6 +275,7 @@ img {
 .div-portfolio-item {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .first-item-list {
   width: calc((100% - 48px) / 3);
