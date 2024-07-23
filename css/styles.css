@@ -12,6 +12,7 @@ body {
   display: flex;
   padding: 0 15px;
 }
+
 .header-navigation {
   display: flex;
   align-items: center;
@@ -84,13 +85,12 @@ body {
 }
 .div-main-container {
   height: 600px;
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   background: #2e2f42;
   justify-content: center;
   align-items: center;
   padding-top: 180px;
-  padding: 188px 0;
 }
 .main-title {
   font-weight: 700;
@@ -211,8 +211,9 @@ body {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.work-list-item {
-  padding: 32px 0;
+.worker-list-item {
+  padding-top: 32ox;
+  padding-bottom: 32px;
 }
 .photo {
   align-items: center;
