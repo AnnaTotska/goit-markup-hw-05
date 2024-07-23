@@ -203,6 +203,9 @@ body {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+.work-list-item {
+  padding: 32px 0;
+}
 .photo {
   align-items: center;
 }
@@ -219,6 +222,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-descr {
   font-weight: 400;
@@ -260,6 +264,8 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+}
+.div-portfolio-item {
 }
 .first-item-list {
   width: calc((100% - 48px) / 3);
