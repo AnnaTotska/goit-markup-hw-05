@@ -187,7 +187,6 @@ body {
   margin-left: 156px;
   margin-right: 156px;
   align-items: center;
-  width: calc((100% - 72px) / 4);
 }
 .worker {
   background-color: #ffffff;
@@ -201,6 +200,7 @@ body {
   width: 264px;
   height: 380px;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
