@@ -11,7 +11,8 @@ body {
   background-color: #ffffff;
   display: flex;
 }
-.main-container {
+.div-main-container {
+  width: 1158px;
   height: 600px;
 }
 .header-navigation {
