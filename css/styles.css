@@ -7,7 +7,6 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
-  width: 1440px;
   height: 72px;
   background-color: #ffffff;
   display: flex;
@@ -30,6 +29,7 @@ body {
   color: #4d5ae5;
   margin-left: 156px;
   text-decoration: none;
+  margin-right: 76px;
 }
 .header-logo-color {
   color: #2e2f42;
@@ -37,6 +37,8 @@ body {
 .list-item {
   color: #2e2f42;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .list-item:hover {
   color: #404bbf;
@@ -78,6 +80,9 @@ body {
 }
 .contacts:focus {
   color: #404bbf;
+}
+.our-main-section {
+  padding: 188px 0;
 }
 .div-main-container {
   height: 600px;
@@ -163,7 +168,7 @@ body {
 
 .our-section-team {
   background-color: #f4f4fd;
-  width: 1550px;
+  width: 1158px;
   height: 732px;
 }
 .our-second-title {
