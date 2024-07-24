@@ -12,6 +12,7 @@ body {
   background-color: #ffffff;
   display: flex;
   padding: 0 15px;
+  margin: 0 auto;
 }
 .header-navigation {
   display: flex;
