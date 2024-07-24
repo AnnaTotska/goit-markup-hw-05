@@ -334,6 +334,4 @@ img {
   padding: 100px 0;
 }
 .our-footer-container {
-  display: flex;
-  flex-direction: column;
 }
