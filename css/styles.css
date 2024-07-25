@@ -80,42 +80,40 @@ body {
 }
 .our-main-section {
   padding: 188px 0;
+  background: #2e2f42;
 }
 .div-main-container {
-  height: 600px;
-  max-width: 1158px;
+  max-width: 1440px;
   padding: 0 15px;
-  background: #2e2f42;
-  align-items: center;
-  padding-top: 180px;
-  margin: 0 auto;
+  text-align: center;
+  margin: 0;
 }
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin: 0 auto;
+  margin: auto;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 .main-button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 150%;
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
-  font-weight: 500;
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
   display: block;
-  margin: 0 auto;
-  height: 56px;
+  margin: auto;
   min-width: 169px;
 }
 .main-button:hover {
@@ -142,16 +140,20 @@ body {
   display: flex;
   gap: 24px;
   list-style-type: none;
-  padding-left: 0;
-  margin: 0 auto;
 }
 .features-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 264px;
+}
+.features-list-item :first-child {
+  width: calc(((100%-72px) / 4));
 }
 .list-features {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
@@ -159,23 +161,20 @@ body {
 .text-features {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.div-container-team {
-  padding: 32px 0;
-}
-
 .our-section-team {
   background-color: #f4f4fd;
-  height: 732px;
-  padding: 120px 0;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .our-second-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -185,23 +184,18 @@ body {
 .worker-list {
   display: flex;
   gap: 24px;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-left: 156px;
   margin-right: 156px;
-  align-items: center;
 }
 .worker-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 380px;
-  gap: 24px;
-  width: calc((100% - 72px) / 4);
+  width: 264px;
+  text-align: center;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -221,7 +215,7 @@ img {
 .our-team-names {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -230,11 +224,10 @@ img {
 .team-descr {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-top: 8px;
 }
 .our-portfolio-section {
   padding-top: 120px;
@@ -254,9 +247,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  gap: 24px;
+  column-gap: 24px;
   row-gap: 48px;
-  margin: 0 auto;
 }
 .portfolio-items {
   font-weight: 500;
@@ -271,8 +263,8 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.first-item-list :first-child {
-  width: calc((100% - 48px) / 3);
+.first-item-list {
+  width: calc((100%-48px) / 3);
 }
 .div-list-item {
   padding: 32px 16px;
@@ -282,14 +274,14 @@ img {
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 16px;
@@ -300,7 +292,7 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -313,7 +305,7 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
@@ -324,6 +316,4 @@ img {
   height: 312px;
   display: flex;
   padding: 100px 0;
-}
-.our-footer-container {
 }
