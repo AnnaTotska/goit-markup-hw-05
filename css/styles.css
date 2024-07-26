@@ -6,6 +6,12 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -128,7 +134,7 @@ body {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1;
+  margin: -1px;
   border: 0;
   padding: 0;
   white-space: nowrap;
@@ -145,11 +151,11 @@ body {
   list-style-type: none;
 }
 .features-list-item {
+  width: 264px;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  flex-basis: calc((100% - 72px) / 4);
-  margin: 0 auto;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .list-features {
   font-weight: 500;
@@ -166,7 +172,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.img {
+img {
   display: block;
 }
 .our-section-team {
