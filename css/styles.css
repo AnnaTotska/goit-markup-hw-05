@@ -109,6 +109,8 @@ ol {
   color: #404bbf;
 }
 .main-section {
+  max-width: 1440px;
+  margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -374,6 +376,9 @@ img {
   max-width: 264px;
   font-weight: 500;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 16px;
 }
 .footer-logo {
