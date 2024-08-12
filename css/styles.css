@@ -331,7 +331,11 @@ img {
 .first-item-list:hover .portfolio-list-text {
   transform: translateY(0);
 }
-
+.portfolio-list-text:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
+}
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
@@ -352,7 +356,7 @@ img {
   transform: translateY(100%);
   transition: transform 300ms linear;
 }
-.div-portfolio {
+.div-portfolio-text {
   position: relative;
   overflow: hidden;
 }
