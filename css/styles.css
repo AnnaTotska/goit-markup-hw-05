@@ -376,9 +376,6 @@ img {
   max-width: 264px;
   font-weight: 500;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 16px;
 }
 .footer-logo {
@@ -419,7 +416,6 @@ img {
 .container-div {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer-icon {
   width: 100%;
