@@ -419,6 +419,7 @@ img {
 .container-div {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 .footer-icon {
   width: 100%;
