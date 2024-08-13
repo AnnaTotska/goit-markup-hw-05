@@ -390,6 +390,7 @@ img {
 }
 .our-footer-container {
   margin-right: 120px;
+  margin-bottom: 16px;
 }
 .footer-logo-color {
   font-family: "Raleway", sans-serif;
@@ -431,7 +432,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
 }
 .icon-list-footer {
   display: flex;
