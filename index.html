@@ -426,5 +426,57 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-close-button">
+          <svg class="icon-close" width="8px" height="8px">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="form-div">
+            <label class="modal-name" for="user-name">Name</label>
+            <div class="modal-input-div">
+              <input type="text" class="modal-input" id="user-name" required />
+              <svg width="18" height="24" class="modal-icon">
+                <use href="./images/icons.svg#icon-Vector-3"></use>
+              </svg>
+            </div>
+            <div class="form-div">
+              <label class="modal-name" for="user-number">Phone</label>
+              <div class="modal-input-div">
+                <input type="text" class="modal-input" id="user-number" required />
+                <svg width="18" height="24" class="modal-icon">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </div>
+              <div class="form-div">
+                <label class="modal-name" for="user-email">Email</label>
+                <div class="modal-input-div">
+                  <input type="text" class="modal-input" id="user-email" required />
+                  <svg width="18" height="24" class="modal-icon">
+                    <use href="./images/icons.svg#icon-Vector-1"></use>
+                  </svg>
+                </div>
+          </div>
+          <div class="form-text-div">
+            <label class="form-text-label" for="user-comment">Comment</label>
+            <textarea class="modal-text-comment" id="user-comment" placeholder="Text input"></textarea>
+          </div>
+          <div class="checkbox-div">
+            <input type="checkbox" id="user-checkbox" class="input-checkbox">
+            <label for="user-checkbox" class="label-checkbox">
+              <span class="custom-checkbox">
+                <svg class="svg-checkbox" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-Vector-2"></use>
+                </svg>
+              I accept the terms and conditions of the <a href="" class="text-link">Privacy Policy</a></p>
+              </span>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
