@@ -443,12 +443,13 @@ img {
 .footer-icon:focus {
   background-color: #31d0aa;
 }
-.form-name {
+.footer-form-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  gap: 24px;
 }
 .footer-form {
   border: 1px solid #fff;
@@ -457,6 +458,9 @@ img {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #2e2f42;
+}
+.footer-email-form {
+  display: flex;
 }
 .footer-form::placeholder {
   font-weight: 400;
@@ -469,7 +473,7 @@ img {
 .footer-form-div {
   display: flex;
 }
-.footer-button {
+.footer-button-div {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
