@@ -461,6 +461,7 @@ img {
 }
 .footer-email-form {
   display: flex;
+  gap: 24px;
 }
 .footer-form::placeholder {
   font-weight: 400;
