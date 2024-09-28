@@ -486,6 +486,11 @@ img {
   padding: 8px 24px;
   width: 165px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
 }
 .form-text {
   font-weight: 500;
@@ -496,6 +501,7 @@ img {
   margin-bottom: 16px;
 }
 .icon-send {
+  margin-left: 16px;
 }
 /* modal */
 .backdrop {
