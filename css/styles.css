@@ -684,6 +684,7 @@ img {
 .input-checkbox:checked + .label-checkbox > .custom-checkbox-footer {
   background-color: #404bbf;
   border: none;
+  fill: #f4f4fd;
 }
 ::placeholder {
   font-weight: 400;
