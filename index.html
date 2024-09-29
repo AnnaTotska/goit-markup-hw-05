@@ -480,9 +480,9 @@
             <textarea class="modal-text-comment" name="user-comment" id="user-comment" placeholder="Text input" required></textarea>
           </div>
           <div class="checkbox-div">
-            <label class="label-checkbox" for="user-privacy">
+            <input type="checkbox" id="user-checkbox" class="input-checkbox" name="user-privacy" value="true" required>
               <div class="footer-comment-div">
-              <input type="checkbox" id="user-checkbox" class="input-checkbox" name="user-privacy" value="true" required>
+                <label class="label-checkbox" for="user-privacy"></label>
               <p>I accept the terms and conditions of the <a href="" class="text-link">Privacy Policy</a></p>
               <span class="custom-checkbox">
                 <svg class="svg-checkbox" width="16" height="16">
@@ -491,7 +491,6 @@
               </span>
               </div>
             </div>
-            </label>
             <button type="submit" class="form-button-div">Send</button>
           </div>
         </form>

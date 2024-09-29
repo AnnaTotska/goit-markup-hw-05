@@ -586,6 +586,7 @@ img {
   margin-bottom: 4px;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: block;
 }
 .modal-input {
   width: 100%;
