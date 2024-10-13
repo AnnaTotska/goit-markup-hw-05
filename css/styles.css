@@ -327,7 +327,7 @@ button {
 /* main-section */
 .main-section {
   max-width: 320px;
-  height: 432px;
+  min-height: 432px;
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
