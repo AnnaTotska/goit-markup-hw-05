@@ -453,10 +453,9 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   row-gap: 72px;
-  max-width: 288px;
 }
 .features-list-item {
-  width: 288px;
+  max-width: 288px;
   align-items: flex-start;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
@@ -894,5 +893,8 @@ img {
   }
   .form-text {
     justify-content: flex-start;
+  }
+  .footer-button-div {
+    margin: 0 auto;
   }
 }
