@@ -49,15 +49,15 @@
             </li>
           </ul>
         </address>
-        <button class="header-button" type="button">
+        <button class="header-button" type="button" data-menu-open>
           <svg class="header-icon" width="24" height="24">
             <use href="./images/icon.svg#icon-heroicons-solid_menu"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">
+          <button class="mobile-menu-close" data-menu-close>
             <svg class="mobile-close-button" width="8" height="8">
               <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
@@ -641,5 +641,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
