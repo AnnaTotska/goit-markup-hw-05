@@ -327,7 +327,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio {
+/*.portfolio {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -336,34 +336,34 @@ img {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-}
+}*/
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  list-style-type: none;
+  /*list-style-type: none;*/
   column-gap: 24px;
-  row-gap: 48px;
+  /*row-gap: 48px;*/
 }
-.portfolio-items {
+/*.portfolio-items {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-}
-.div-portfolio-item {
+}*/
+/*.div-portfolio-item {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-}
+}*/
 .first-item-list {
   width: calc((100% - 48px) / 3);
   position: relative;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.first-item-list:hover {
+/*.first-item-list:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -379,8 +379,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.portfolio-list-text {
+}*/
+/*.portfolio-list-text {
   position: absolute;
   top: 0;
   height: 100%;
@@ -397,16 +397,16 @@ img {
 .div-portfolio-text {
   position: relative;
   overflow: hidden;
-}
+}*/
 .footer-text {
-  font-size: 16px;
+  /*font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em;*/
   max-width: 264px;
   font-weight: 500;
-  color: #ffffff;
+  /*color: #ffffff;*/
 }
-.footer-logo {
+/*.footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -416,11 +416,11 @@ img {
   color: #4d5ae5;
   text-decoration: none;
   display: inline-block;
-}
+}*/
 .our-footer-container {
   margin-right: 120px;
 }
-.footer-logo-color {
+/*.footer-logo-color {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -428,12 +428,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-}
+}*/
 .footer {
-  background: #2e2f42;
+  /*background: #2e2f42;*/
   padding: 100px 0;
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row;*/
 }
 .div-footer {
   display: flex;
@@ -443,7 +443,7 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer-icon {
+/*.footer-icon {
   width: 100%;
   height: 100%;
   display: flex;
@@ -452,8 +452,8 @@ img {
   border-radius: 50%;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-text-social {
+}*/
+/*.footer-text-social {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -462,8 +462,8 @@ img {
   color: #fff;
   margin-top: 0;
   margin-bottom: 16px;
-}
-.icon-list-footer {
+}*/
+/*.icon-list-footer {
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -471,16 +471,16 @@ img {
 .footer-icon:hover,
 .footer-icon:focus {
   background-color: #31d0aa;
-}
-.footer-form-name {
+}*/
+/*footer-form-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   gap: 24px;
-}
-.footer-form {
+}*/
+/*.footer-form {
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
@@ -492,20 +492,20 @@ img {
   letter-spacing: 0.04em;
   padding-left: 16px;
   color: #ffffff;
-}
+}*/
 .footer-email-form {
   display: flex;
   gap: 24px;
 }
-.footer-form::placeholder {
+/*.footer-form::placeholder {
   color: #ffffff;
-}
+}*/
 .footer-form-div {
   display: flex;
   flex-direction: column;
   margin-left: 80px;
 }
-.footer-button-div {
+/*.footer-button-div {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -523,15 +523,15 @@ img {
   cursor: pointer;
   border: none;
   min-width: 165px;
-}
-.form-text {
+}*/
+/*.form-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-}
+}*/
 .icon-send {
   margin-left: 16px;
 }
