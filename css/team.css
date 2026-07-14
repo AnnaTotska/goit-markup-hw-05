@@ -1,4 +1,4 @@
-#team {
+.team {
   background: #f4f4fd;
 }
 .team-title {
@@ -10,7 +10,6 @@
   color: #2e2f42;
 }
 .team-list {
-  list-style: none;
 }
 .team-item {
   box-shadow:

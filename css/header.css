@@ -1,4 +1,4 @@
-#header {
+.header {
   background: #fff;
 }
 .logo-header {
@@ -31,9 +31,9 @@
 .address-header {
 }
 .address-list {
-  list-style: none;
 }
 .address-item {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;

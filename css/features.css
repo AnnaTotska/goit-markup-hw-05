@@ -1,4 +1,4 @@
-#features {
+.features {
   background: #fff;
 }
 .title-features {
@@ -10,7 +10,6 @@
   color: #2e2f42;
 }
 .features-list {
-  list-style: none;
 }
 .features-item {
 }
