@@ -38,11 +38,9 @@ img {
 .header-container {
   background-color: #ffffff;
   display: flex;
-  padding: 0 15px;
+  padding: 0;
   margin: 0 auto;
   align-items: center;
-  width: 1158px;
-  height: 72px;
 }
 .sr-only {
   position: absolute;

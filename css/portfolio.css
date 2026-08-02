@@ -15,7 +15,6 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   list-style-type: none;
   column-gap: 24px;
   row-gap: 48px;
