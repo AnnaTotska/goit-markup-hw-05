@@ -40,6 +40,7 @@
   color: #404bbf;
 }
 .address-header {
+  margin-left: auto;
 }
 .address-list {
   display: flex;
