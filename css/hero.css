@@ -25,12 +25,11 @@
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
-  margin: auto;
+  margin: 0 auto;
   display: block;
   border: none;
   padding: 16px 32px;
   border-radius: 4px;
-  margin-top: 0;
 }
 .button-hero:hover,
 .button-hero:focus {
