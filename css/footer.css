@@ -4,6 +4,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -14,7 +15,16 @@
   text-transform: uppercase;
   color: #f4f4fd;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 .footer {
   background: #2e2f42;
+  padding: 100px 0px;
+}
+.our-footer-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
 }

@@ -1,5 +1,7 @@
 .team {
   background: #f4f4fd;
+  text-align: center;
+  padding: 120px 0px;
 }
 .team-title {
   font-weight: 700;
@@ -8,8 +10,12 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
 }
 .team-item {
   box-shadow:
@@ -17,6 +23,11 @@
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  text-align: center;
+  flex-basis: calc((100% - 72px) / 4);
+  gap: 24px;
 }
 .team-member {
   font-weight: 500;
@@ -25,6 +36,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-position {
   font-weight: 400;
@@ -33,4 +45,8 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.worker-list-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }

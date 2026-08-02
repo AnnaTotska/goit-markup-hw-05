@@ -1,5 +1,6 @@
 .features {
   background: #fff;
+  padding: 120px 0;
 }
 .title-features {
   font-weight: 700;
@@ -10,6 +11,8 @@
   color: #2e2f42;
 }
 .features-list {
+  display: flex;
+  gap: 24px;
 }
 .features-item {
 }
