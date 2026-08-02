@@ -15,6 +15,7 @@
   gap: 24px;
 }
 .features-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .features-item-title {
   font-weight: 500;

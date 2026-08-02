@@ -47,6 +47,5 @@
   color: #434455;
 }
 .worker-list-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
 }
