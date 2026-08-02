@@ -11,6 +11,8 @@
   background-position: center;
   background-size: cover;
   background-color: #2e2f42;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .title-hero {
   font-weight: 700;
@@ -37,6 +39,7 @@
   border: none;
   padding: 16px 32px;
   border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .button-hero:hover,
 .button-hero:focus {

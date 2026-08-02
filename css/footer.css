@@ -32,6 +32,7 @@
 .div-footer {
   display: flex;
   flex-direction: column;
+  margin-left: 120px;
 }
 .footer-text-social {
   font-family: "Roboto", sans-serif;
