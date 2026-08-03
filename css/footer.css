@@ -101,6 +101,10 @@
   display: flex;
   gap: 24px;
 }
+.footer-form-name:hover,
+.footer-form-name:focus {
+  color: #31d0aa;
+}
 .footer-form::placeholder {
   color: #ffffff;
 }
@@ -122,6 +126,10 @@
   cursor: pointer;
   border: none;
   min-width: 165px;
+}
+.footer-button-div:hover,
+.footer-button-div:focus {
+  background-color: #31d0aa;
 }
 .form-text {
   font-weight: 500;
