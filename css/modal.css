@@ -44,7 +44,7 @@
   right: 24px;
   border-radius: 50%;
   stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
+  stroke: rgba(46, 47, 66, 0.4);
   width: 24px;
   height: 24px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -145,7 +145,8 @@
   outline: transparent;
   padding: 8px 16px;
   background-color: transparent;
-  color: rgba(46, 47, 66, 0.4);
+  color: #434455;
+  /*color: rgba(46, 47, 66, 0.4);*/
   letter-spacing: 0.04em;
   line-height: 1.17;
   font-size: 12px;
@@ -240,11 +241,12 @@
   color: #8e8f99;
   display: block;
   cursor: pointer;
-  padding-top: 10px;
+
   padding-bottom: 10px;
 }
 .text-link-footer {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 .visually-hidden {
   position: absolute;
